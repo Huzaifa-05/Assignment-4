@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+input[type="color"] {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.color-box {
+    width: 150px;
+    height: 150px;
+    margin: 15px auto;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #000;
+}
+
+.label {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
